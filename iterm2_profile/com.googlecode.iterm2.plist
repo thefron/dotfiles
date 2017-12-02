@@ -8,6 +8,12 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
+	<key>Coprocess MRU</key>
+	<array>
+		<string>/usr/local/bin/sudolikeaboss</string>
+	</array>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>BirdsOfParadise</key>
@@ -1388,10 +1394,12 @@
 			<string></string>
 		</dict>
 	</dict>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/dotfiles/iterm2_profile</string>
+	<string>~/Downloads</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -1431,17 +1439,19 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>1773 121 630 94 0 0 2560 1417 </string>
+	<string>744 78 630 384 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 780 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>845 134 599 388 0 0 1440 877 </string>
+	<string>1954 440 606 456 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>539 512 796 473 0 0 2560 1417 </string>
+	<string>540 657 937 512 0 0 2560 1417 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>7 110 2300 1288 0 0 2560 1417 </string>
+	<string>99 78 2331 1310 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>7 126 2506 1187 0 0 2560 1417 </string>
+	<string>7 786 810 527 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1763,6 +1773,13 @@
 					<key>Text</key>
 					<string>0x7f</string>
 				</dict>
+				<key>0x5c-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>35</integer>
+					<key>Text</key>
+					<string>/usr/local/bin/sudolikeaboss</string>
+				</dict>
 				<key>0xf700-0x220000</key>
 				<dict>
 					<key>Action</key>
@@ -2022,7 +2039,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>10000</integer>
+			<integer>30000</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -2056,7 +2073,7 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
-			<true/>
+			<false/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -2084,7 +2101,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>B2D38F4B-E1F4-4D82-B83A-B1B9A84C3634</string>
 	<key>NoSyncLastTipTime</key>
-	<real>504944762.34129399</real>
+	<real>529380368.17040598</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2162,6 +2179,12 @@
 		<string>0063</string>
 		<string>0064</string>
 		<string>0065</string>
+		<string>0066</string>
+		<string>0067</string>
+		<string>0068</string>
+		<string>0069</string>
+		<string>0070</string>
+		<string>0071</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -2207,19 +2230,23 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-02-25T07:01:04Z</date>
+	<date>2017-11-11T06:44:00Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
 	<false/>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1500269312</real>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.14</string>
+	<string>3.1.4</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
